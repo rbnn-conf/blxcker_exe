@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blxcker_exe</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">🛡️ Blxcker_exe</div>
+    </header>
+    
+    <main>
+      <div class="status-card">
+        <div class="status-text">
+          <h2>Protection</h2>
+          <p id="status-label">Active</p>
+        </div>
+        
+        <!-- Toggle Switch -->
+        <label class="switch">
+          <input type="checkbox" id="power-toggle" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <div class="stats-container">
+        <div class="stat-box">
+          <h3>Ads Hidden</h3>
+          <p id="blocked-count" class="stat-number">0</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <button id="reset-stats">Reset Stats</button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

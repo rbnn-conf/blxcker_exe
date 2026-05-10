@@ -1,0 +1,15 @@
+! Title: Blxcker_exe Custom Filters
+! Description: A simplified EasyList-style filter list
+! 
+! Syntax supported:
+! ||domain.com^ - Block all requests to this domain and its subdomains
+! /ad-banner/ - Block requests containing exactly this string (wildcard)
+! *.tracker.com/* - Wildcard matching
+
+! Domain blocks
+||evil-tracker.com^
+||analytics.example.org^
+
+! String/Wildcard matches
+/ads/banner_*.jpg
+*popunder*.js

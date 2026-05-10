@@ -1,11 +1,12 @@
-# MiniShield Roadmap 🗺️
+# Blxcker_exe Roadmap 🗺️
 
-This document outlines the planned future features and improvements for MiniShield. The goal is to evolve the extension from a simple proof-of-concept into a more feature-rich, yet still educational, project.
+This document outlines the planned future features and improvements for Blxcker_exe. The goal is to evolve the extension from a simple proof-of-concept into a more feature-rich, yet still educational, project.
 
 ## Phase 1: Foundation (Current)
 *   [x] Basic Manifest V3 structure.
 *   [x] Static blocking using `declarativeNetRequest`.
 *   [x] Professional GitHub repository structure and documentation.
+*   [x] **Cosmetic Filtering (Content Scripts):** Implemented `content.js` to hide visible ad elements using CSS selectors and `MutationObserver`.
 
 ## Phase 2: User Interface & Interaction
 *   **Action Popup (`popup.html` & `popup.js`):**
@@ -26,5 +27,4 @@ This document outlines the planned future features and improvements for MiniShie
 
 ## Phase 4: Advanced Features (Educational Goals)
 *   **Rule Subscription:** Demonstrate how to fetch a JSON file of rules from a remote server periodically and update the dynamic ruleset.
-*   **Cosmetic Filtering (Content Scripts):** While `declarativeNetRequest` blocks network requests, some ads are baked into the HTML. Introduce content scripts to hide specific DOM elements (e.g., hiding a `<div>` with the class `ad-banner`).
 *   **Build Pipeline:** Introduce a simple build step (e.g., using Webpack or Rollup) to bundle the project, minify code, and prepare it for the Chrome Web Store, moving beyond the raw "unpacked" workflow.

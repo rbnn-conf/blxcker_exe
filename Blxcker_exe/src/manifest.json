@@ -5,11 +5,22 @@
   "version": "1.0",
   "description": "A minimal Chrome extension to block doubleclick.net",
   "permissions": [
-    "declarativeNetRequest"
+    "declarativeNetRequest",
+    "storage"
   ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Blxcker_exe"
+  },
   "background": {
     "service_worker": "background.js"
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
   "declarative_net_request": {
     "rule_resources": [
       {
