@@ -1,0 +1,22 @@
+{
+  "_comment": "manifest.json: The core configuration file for the Chrome extension. It declares permissions, background scripts, and rulesets.",
+  "manifest_version": 3,
+  "name": "MiniShield",
+  "version": "1.0",
+  "description": "A minimal Chrome extension to block doubleclick.net",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
