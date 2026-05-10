@@ -2,7 +2,7 @@
 
 A minimal, educational Chrome Extension (Manifest V3) built to demonstrate how to effectively block network requests using the modern `declarativeNetRequest` API.
 
-Currently, MiniShield is configured to block requests to `doubleclick.net` as a simple proof of concept.
+Currently, Blxcker_exe is configured to block requests to `doubleclick.net` as a simple proof of concept.
 
 ## Purpose
 
@@ -27,16 +27,16 @@ Blxcker_exe/
 
 ## Setup & Installation Instructions
 
-To try MiniShield in your browser, you need to load it as an "unpacked" extension.
+To try Blxcker_exe in your browser, you need to load it as an "unpacked" extension.
 
 1. **Clone or Download** this repository to your local machine.
 2. Open **Google Chrome**.
 3. In the address bar, type `chrome://extensions/` and press Enter.
 4. Look at the top right corner of the page and turn on **Developer mode**.
 5. Three new buttons will appear in the top left. Click **Load unpacked**.
-6. A file browser window will open. Navigate to the `MiniShield` folder, select the **`src`** folder inside it, and click "Select Folder" (or "Open").
+6. A file browser window will open. Navigate to the `Blxcker_exe` folder, select the **`src`** folder inside it, and click "Select Folder" (or "Open").
    > **Note:** It is important to select the `src` folder, as that is where the `manifest.json` lives!
-7. MiniShield should now appear in your list of extensions. It is active and blocking requests to doubleclick.net!
+7. Blxcker_exe should now appear in your list of extensions. It is active and blocking requests to doubleclick.net!
 
 ## Testing it out
 
