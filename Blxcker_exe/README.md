@@ -1,4 +1,4 @@
-# Blxcker_Exe 🛡️
+# Blxcker_exe 🛡️
 
 A minimal, educational Chrome Extension (Manifest V3) built to demonstrate how to effectively block network requests using the modern `declarativeNetRequest` API.
 
