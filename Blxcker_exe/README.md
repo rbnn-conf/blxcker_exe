@@ -14,7 +14,7 @@ This project is designed to be **beginner-friendly**. It serves as a clean, easi
 ## Project Structure
 
 ```text
-MiniShield/
+Blxcker_exe/
 ├── src/               # The actual Chrome Extension code that gets loaded into the browser.
 │   ├── background.js  # Service worker handling background events.
 │   ├── manifest.json  # The core configuration file for Chrome.
